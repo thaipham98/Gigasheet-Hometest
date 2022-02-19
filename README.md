@@ -13,6 +13,14 @@ go run server.go
 
 ## Test
 
+Run with curl in terminal
+
+```bash
+curl --data '{"ips":["94.142.241.194","192.168.1.1","159.65.180.64"]}' -H "Content-type: application/json" http://localhost:8080/count_ips_in_ipsum
+```
+
+Run the test file
+
 ```bash
 go test -v
 ```
