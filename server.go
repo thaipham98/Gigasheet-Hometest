@@ -102,7 +102,7 @@ func ipsumHandler(writer http.ResponseWriter, request *http.Request) {
 				count++
 			}
 		} else {
-			http.Error(writer, ip+"is not a valid ip address", http.StatusBadRequest)
+			http.Error(writer, ip+" is not a valid ip address", http.StatusBadRequest)
 			return
 		}
 	}
