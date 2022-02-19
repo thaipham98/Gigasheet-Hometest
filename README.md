@@ -31,7 +31,7 @@ curl --data '{"ips":["94.142.241.194","192.168.1.1","159.65.180.64"]}' -H "Conte
 ##### The output printed out should be:
     
 ```bash
-2
+1
 ```
 
 ### 3. Run the test file
