@@ -16,14 +16,19 @@ go run server.go
 
 2. Run with curl in terminal
 
+Copy the following into the terminal then run
+
 ```bash
 curl --data '{"ips":["94.142.241.194","192.168.1.1","159.65.180.64"]}' -H "Content-type: application/json" http://localhost:8080/count_ips_in_ipsum
 ```
 
-2 should be printed out
+The output printed out should be
+```bash
+2
+```
 
 3. Run the test file
-
+Copy the following into the terminal then run
 ```bash
 go test -v
 ```
