@@ -26,7 +26,7 @@ curl --data '{"ips":["94.142.241.194","192.168.1.1","159.65.180.64"]}' -H "Conte
 ```
 #### Test case 2
 ```bash
-curl --data '{"ips":["94.142.241.194","192.168.1.1","159.65.180.64"]}' -H "Content-type: application/json" http://localhost:8080/count_ips_in_ipsum
+curl --data '{"ips":["192.168.1.1","159.65.180.64"]}' -H "Content-type: application/json" http://localhost:8080/count_ips_in_ipsum
 ```
 ##### The output printed out should be:
     
