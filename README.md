@@ -12,7 +12,7 @@ go run server.go
 ```
 
 ## Test
-1. Open another terminal
+1. Open another terminal and cd into Gigasheet-Hometest directory again.
 
 2. Run with curl in terminal
 
