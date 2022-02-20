@@ -9,7 +9,7 @@ import (
 
 func Test_ipsumHandler(t *testing.T) {
 	var jsonStr = []byte(`{"ips": ["94.142.241.194","192.168.1.1","159.65.180.64"]}`)
-	request, err := http.NewRequest("GET", "/entries", bytes.NewBuffer(jsonStr))
+	request, err := http.NewRequest("GET", "/count_ips_in_ipsum", bytes.NewBuffer(jsonStr))
 	if err != nil {
 		t.Fatal(err)
 	}
