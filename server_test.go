@@ -23,7 +23,7 @@ func Test_ipsumHandler(t *testing.T) {
 			status, http.StatusOK)
 	}
 
-	expected := "2\n"
+	expected := "1\n"
 	if response.Body.String() != expected {
 		t.Errorf("handler returned unexpected body: got %v want %v",
 			response.Body.String(), expected)
